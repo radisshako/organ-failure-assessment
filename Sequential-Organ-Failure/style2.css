@@ -1,0 +1,125 @@
+/*Setting background color*/
+html{
+    background-color: lightblue;
+}
+/*settinf form format and radius*/
+form {
+    display:grid;
+    grid-template-rows:auto;
+    grid-template-columns: auto;
+    background-color: rgb(12, 85, 109);
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 700px;
+    padding: 20px;
+    width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /*form hover colour change*/
+  form:hover{
+    background-color:  rgb(4, 68, 90);
+  }
+  /*button submit colour change*/
+  button[type="submit"]{
+    background-color:green;
+  }
+  /*button reset colour change*/
+  button[type="reset"]{
+    background-color: red;
+  }
+  /*button submit hover colour change*/
+button[type="submit"]:hover{
+    color:black;
+    background-color: darkgreen;
+}
+/*button reset hover  colour change*/
+button[type="reset"]:hover{
+    color:black;
+    background-color: darkred;
+}
+  /*spacing change*/
+.ic1 {
+  margin-top: 40px;
+}
+/*spacing change*/
+.ic2 {
+  margin-top: 30px;
+}
+/*results table formatting*/
+  .table_div{
+    display:grid;
+    grid-template-rows:auto;
+    grid-template-columns: 50% 50%;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 600px;
+    padding: 50px;
+    width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /*header color and border change*/
+h1{
+    text-align: center;
+    border-color: black;
+    color:goldenrod;
+    font-size: 400%;
+    margin-left: 35%;
+    margin-right: 25%;
+    border:solid;
+    border-style: groove;
+    padding-left:50px;
+    padding-right: auto;
+    border-left-width: 50px;
+    border-right-width: 50px;
+}
+/*message formatiing*/
+.outline p{
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+/*name and nhi format*/
+.patient_header{
+    text-align: center;
+}
+/*subheading format*/
+h2 {
+    text-align: center;
+    color: rgb(18, 3, 32);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 55px;
+}
+/*result format*/
+.final_message{
+    color:red;
+    font-size:larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*table  font hehader format*/
+th{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    color: darkgoldenrod;
+}
+/*table font data format*/
+td{
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+/*label formatting*/
+label{
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+/*spacing table elements*/
+tr td{
+    padding-bottom: 50px;
+}
